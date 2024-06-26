@@ -6,8 +6,8 @@ type User record {|
     readonly string id;
     string name;
     int age;
-    string? phone = ();
-    string? email = ();
+    string? phone = "";
+    string? email = "";
 |};
 
 type OptionalUser record {|
